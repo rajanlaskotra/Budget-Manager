@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Budget Manager</title>
+        <script src="jquery-3.3.1.min.js">
+        </script>
+        <script src="popup.js">
+        </script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <h2 id="title"><img src="icon48.png">  Budget Manager</h2>
+        <div class="message">
+            <i class="fa fa-rupee" style="font-size:30px;margin-left:-20px"></i>
+            Set Limits to Your <br> Spending !
+        </div>
+        <h3>&nbsp;Total Spend: <span id="total"></span></h3>
+        <h3>&nbsp;Limit: <span id="limit"></span></h3>
+        <h3>
+            &nbsp;Enter Amount&nbsp;&nbsp;<i class="fa fa-rupee" style="font-size:18px"></i>
+            <input type="text" id="amount"/>
+        </h3>
+        <input type="submit" id="spendAmount" value="Spend It!">
+    </body>
+</html>

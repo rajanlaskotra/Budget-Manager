@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Budget Manager Options</title>
+    <script src="jquery-3.3.1.min.js">
+    </script>
+    <script src="options.js">
+    </script>
+<style>
+    #main{
+        border: 3px solid black;
+        margin:150px 400px;
+        padding:50px 50px;
+        background-color: #b0f1d3;
+    }
+    #limit{
+        border:2px solid rgba(70, 61, 63, 0.87);
+        border-radius: 3px;
+    }
+    #saveLimit,#resetTotal{
+        border-radius:3px;
+        background-color: dimgray;
+        color:white;
+    }
+</style>
+</head>
+<body>
+    <div id="main">
+       <h2>Budget Manager Options</h2>
+       <h2>Limit : <input type="text" id="limit"></h2>
+       <input type="submit" id="saveLimit" value="Save Limit">
+       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <input type="submit" id="resetTotal" value="Reset Total">
+    </div>
+</body>
+</html>
